@@ -1,0 +1,36 @@
+/*
+Advance Positioning
+
+The CSS position property lets you alter the positioning scheme of a particular element.
+Its default value, as you might imagine, is static.
+When an element’s position property doesn’t have a value of static, it’s called a “positioned element”.
+It’s possible to mix-and-match different positioning schemes.
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 1200px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.example {
+  display: flex;
+  justify-content: space-around;
+
+  width: 800px;
+  margin: 50px 0;
+  background-color: #D6E9FE;
+}
+
+.item img {
+  display: block;
+}
